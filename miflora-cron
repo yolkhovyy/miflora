@@ -1,1 +1,1 @@
-0,15,30,45 * * * * python3 /miflora/miflora-mqtt.py C4:7C:8D:65:CB:63 C4:7C:8D:65:D0:20 --measurements --health --server rpi-opench-gateway >> /var/log/cron.log 2>&1
+0,15,30,45 * * * * python3 ./miflora-mqtt.py C4:7C:8D:65:CB:63 C4:7C:8D:65:D0:20 --measurements --health --server rpi-opench-gateway >> /var/log/cron.log 2>&1

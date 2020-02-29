@@ -31,6 +31,6 @@ setup(
     packages=find_packages(),
     keywords='plant sensor bluetooth low-energy ble',
     zip_safe=False,
-    install_requires=['btlewrap', 'getmac', 'paho-mqtt'],
+    install_requires=['btlewrap', 'getmac', 'gatttool', 'paho-mqtt'],
     include_package_data=True,
 )
