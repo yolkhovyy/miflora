@@ -1,12 +1,10 @@
 """Python package description."""
 from setuptools import setup, find_packages
 
-
 def readme():
     """Load the readme file."""
     with open('README.md', 'r') as readme_file:
         return readme_file.read()
-
 
 setup(
     name='miflora-mqtt',
@@ -29,8 +27,8 @@ setup(
         'Programming Language :: Python :: 3.7',
     ],
     packages=find_packages(),
-    keywords='plant sensor bluetooth low-energy ble',
+    keywords='plant sensor bluetooth low-energy ble mqtt',
     zip_safe=False,
-    install_requires=['btlewrap', 'getmac', 'gatttool', 'paho-mqtt'],
+    install_requires=['getmac', 'paho-mqtt'],
     include_package_data=True,
 )
